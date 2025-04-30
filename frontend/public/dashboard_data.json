@@ -1,0 +1,241 @@
+{
+  "summary": {
+    "totalProperties": 995,
+    "avgPrice": 1016364,
+    "avgPricePerSqFt": 669,
+    "avgDaysOnMarket": 102
+  },
+  "cityComparison": [
+    {
+      "city": "Chicago",
+      "count": 199,
+      "avgPrice": 551652,
+      "avgPricePerSqFt": 365,
+      "avgDaysOnMarket": 101,
+      "priceGrowth": 5.3,
+      "inventoryChange": 4.9,
+      "daysOnMarketTrend": 13.9,
+      "salesVolumeTrend": -1.1,
+      "affordabilityIndex": 72.4
+    },
+    {
+      "city": "Los Angeles",
+      "count": 196,
+      "avgPrice": 1147954,
+      "avgPricePerSqFt": 731,
+      "avgDaysOnMarket": 109,
+      "priceGrowth": 1.2,
+      "inventoryChange": -9.5,
+      "daysOnMarketTrend": 15.0,
+      "salesVolumeTrend": -4.1,
+      "affordabilityIndex": 42.6
+    },
+    {
+      "city": "Miami",
+      "count": 203,
+      "avgPrice": 719578,
+      "avgPricePerSqFt": 463,
+      "avgDaysOnMarket": 107,
+      "priceGrowth": 7.0,
+      "inventoryChange": -9.6,
+      "daysOnMarketTrend": -14.4,
+      "salesVolumeTrend": 13.8,
+      "affordabilityIndex": 64.0
+    },
+    {
+      "city": "New York",
+      "count": 198,
+      "avgPrice": 1266786,
+      "avgPricePerSqFt": 847,
+      "avgDaysOnMarket": 99,
+      "priceGrowth": 4.2,
+      "inventoryChange": -10.2,
+      "daysOnMarketTrend": -3.1,
+      "salesVolumeTrend": 5.7,
+      "affordabilityIndex": 36.7
+    },
+    {
+      "city": "San Francisco",
+      "count": 199,
+      "avgPrice": 1405062,
+      "avgPricePerSqFt": 945,
+      "avgDaysOnMarket": 95,
+      "priceGrowth": 3.8,
+      "inventoryChange": -10.3,
+      "daysOnMarketTrend": -17.2,
+      "salesVolumeTrend": 3.6,
+      "affordabilityIndex": 29.7
+    }
+  ],
+  "propertyTypeComparison": [
+    {
+      "type": "Townhouse",
+      "count": 170,
+      "avgPrice": 1054350,
+      "avgPricePerSqFt": 581,
+      "avgDaysOnMarket": 94
+    },
+    {
+      "type": "House",
+      "count": 198,
+      "avgPrice": 1253936,
+      "avgPricePerSqFt": 731,
+      "avgDaysOnMarket": 102
+    },
+    {
+      "type": "Apartment",
+      "count": 206,
+      "avgPrice": 715947,
+      "avgPricePerSqFt": 624,
+      "avgDaysOnMarket": 101
+    },
+    {
+      "type": "Duplex",
+      "count": 228,
+      "avgPrice": 1157509,
+      "avgPricePerSqFt": 631,
+      "avgDaysOnMarket": 112
+    },
+    {
+      "type": "Condo",
+      "count": 193,
+      "avgPrice": 893092,
+      "avgPricePerSqFt": 776,
+      "avgDaysOnMarket": 99
+    }
+  ],
+  "predictionModel": {
+    "metrics": {
+      "rmse": 115381,
+      "rSquared": 0.9285743097349078
+    },
+    "featureImportance": [
+      {
+        "feature": "square_feet",
+        "importance": 36
+      },
+      {
+        "feature": "city_Chicago",
+        "importance": 24
+      },
+      {
+        "feature": "city_Miami",
+        "importance": 21
+      },
+      {
+        "feature": "city_San Francisco",
+        "importance": 4
+      },
+      {
+        "feature": "city_Los Angeles",
+        "importance": 2
+      },
+      {
+        "feature": "type_House",
+        "importance": 2
+      },
+      {
+        "feature": "type_Apartment",
+        "importance": 1
+      },
+      {
+        "feature": "property_age",
+        "importance": 1
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Luxury SF Condo",
+        "city": "San Francisco",
+        "propertyType": "Condo",
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "squareFeet": 1800,
+        "propertyAge": 5,
+        "predictedPrice": 1651798
+      },
+      {
+        "name": "Mid-range Chicago House",
+        "city": "Chicago",
+        "propertyType": "House",
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "squareFeet": 2200,
+        "propertyAge": 30,
+        "predictedPrice": 738840
+      },
+      {
+        "name": "NYC Studio Apartment",
+        "city": "New York",
+        "propertyType": "Apartment",
+        "bedrooms": 0,
+        "bathrooms": 1,
+        "squareFeet": 500,
+        "propertyAge": 15,
+        "predictedPrice": 671495
+      }
+    ]
+  },
+  "marketTrends": [
+    {
+      "city": "Chicago",
+      "count": 199,
+      "avgPrice": 551652,
+      "avgPricePerSqFt": 365,
+      "avgDaysOnMarket": 101,
+      "priceGrowth": 5.3,
+      "inventoryChange": 4.9,
+      "daysOnMarketTrend": 13.9,
+      "salesVolumeTrend": -1.1,
+      "affordabilityIndex": 72.4
+    },
+    {
+      "city": "Los Angeles",
+      "count": 196,
+      "avgPrice": 1147954,
+      "avgPricePerSqFt": 731,
+      "avgDaysOnMarket": 109,
+      "priceGrowth": 1.2,
+      "inventoryChange": -9.5,
+      "daysOnMarketTrend": 15.0,
+      "salesVolumeTrend": -4.1,
+      "affordabilityIndex": 42.6
+    },
+    {
+      "city": "Miami",
+      "count": 203,
+      "avgPrice": 719578,
+      "avgPricePerSqFt": 463,
+      "avgDaysOnMarket": 107,
+      "priceGrowth": 7.0,
+      "inventoryChange": -9.6,
+      "daysOnMarketTrend": -14.4,
+      "salesVolumeTrend": 13.8,
+      "affordabilityIndex": 64.0
+    },
+    {
+      "city": "New York",
+      "count": 198,
+      "avgPrice": 1266786,
+      "avgPricePerSqFt": 847,
+      "avgDaysOnMarket": 99,
+      "priceGrowth": 4.2,
+      "inventoryChange": -10.2,
+      "daysOnMarketTrend": -3.1,
+      "salesVolumeTrend": 5.7,
+      "affordabilityIndex": 36.7
+    },
+    {
+      "city": "San Francisco",
+      "count": 199,
+      "avgPrice": 1405062,
+      "avgPricePerSqFt": 945,
+      "avgDaysOnMarket": 95,
+      "priceGrowth": 3.8,
+      "inventoryChange": -10.3,
+      "daysOnMarketTrend": -17.2,
+      "salesVolumeTrend": 3.6,
+      "affordabilityIndex": 29.7
+    }
+  ]
+}
