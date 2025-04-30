@@ -204,7 +204,7 @@ real-estate-dashboard/
 
 **Malavika Swapna**  
 - 🔗 [Portfolio](https://malavikaswapna.github.io/)  
-- 💼 [LinkedIn](www.linkedin.com/in/malavika-swapana-321b92283)  
+💼 [LinkedIn](https://www.linkedin.com/in/malavika-swapana-321b92283)
 - 🐙 [GitHub](https://github.com/malavikaswapna)  
 
 ## 📜 License
